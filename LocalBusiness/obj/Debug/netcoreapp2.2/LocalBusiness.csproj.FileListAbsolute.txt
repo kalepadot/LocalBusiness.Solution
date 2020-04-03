@@ -1,0 +1,14 @@
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.deps.json
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.runtimeconfig.json
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.runtimeconfig.dev.json
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.dll
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.pdb
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.csprojAssemblyReference.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.csproj.CoreCompileInputs.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorAssemblyInfo.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorAssemblyInfo.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.AssemblyInfoInputs.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.AssemblyInfo.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorTargetAssemblyInfo.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.dll
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.pdb
