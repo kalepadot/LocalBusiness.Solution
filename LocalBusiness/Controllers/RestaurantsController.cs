@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using LocalBusiness.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LocalBusiness.Controllers
 {
@@ -29,6 +30,20 @@ namespace LocalBusiness.Controllers
     {
       _db.Restaurants.Add(restaurant);
       _db.SaveChanges();
+    }
+    // GET api/animals/5
+    [HttpGet("{id}")]
+    public ActionResult<Restaurant> Get(int id)
+    {
+      return _db.Restaurants.FirstOrDefault(entry => entry.RestaurantId == id);
+    } 
+    // PUT api/animals/5
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] Restaurant restaurant)
+    {
+        restaurant.RestaurantId = id;
+        _db.Entry(restaurant).State = EntityState.Modified;
+        _db.SaveChanges();
     }
   }
 }
