@@ -16,12 +16,23 @@ namespace LocalBusiness.Controllers
     {
       _db = db;
     }
-
     // GET api/animals
     [HttpGet]
-    public ActionResult<IEnumerable<Restaurant>> Get()
+    public ActionResult<IEnumerable<Restaurant>> Get(string name, string type)
     {
-      return _db.Restaurants.ToList();
+      var query = _db.Restaurants.AsQueryable();
+
+      if (name != null)
+      {
+        query = query.Where(entry => entry.Name == name);
+      }
+
+      if (type != null)
+      {
+        query = query.Where(entry => entry.Type == type);
+      }      
+
+      return query.ToList();
     }
 
     // POST api/animals
