@@ -11,7 +11,5 @@ namespace LocalBusiness.Models
         public string Name { get; set; }
         [Required]
         public string Type { get; set; }
-        // public int Age { get; set; }
-        // public string Gender { get; set; }
     }
 }
