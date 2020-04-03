@@ -45,5 +45,13 @@ namespace LocalBusiness.Controllers
         _db.Entry(restaurant).State = EntityState.Modified;
         _db.SaveChanges();
     }
+     // DELETE api/animals/5
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
+      var restaurantToDelete = _db.Restaurants.FirstOrDefault(entry => entry.RestaurantId == id);
+      _db.Restaurants.Remove(restaurantToDelete);
+      _db.SaveChanges();
+    }
   }
 }
