@@ -16,7 +16,6 @@ namespace LocalBusiness.Controllers
     {
       _db = db;
     }
-    // GET api/animals
     [HttpGet]
     public ActionResult<IEnumerable<Restaurant>> Get(string name, string type)
     {
@@ -35,20 +34,17 @@ namespace LocalBusiness.Controllers
       return query.ToList();
     }
 
-    // POST api/animals
     [HttpPost]
     public void Post([FromBody] Restaurant restaurant)
     {
       _db.Restaurants.Add(restaurant);
       _db.SaveChanges();
     }
-    // GET api/animals/5
     [HttpGet("{id}")]
     public ActionResult<Restaurant> Get(int id)
     {
       return _db.Restaurants.FirstOrDefault(entry => entry.RestaurantId == id);
     } 
-    // PUT api/animals/5
     [HttpPut("{id}")]
     public void Put(int id, [FromBody] Restaurant restaurant)
     {
@@ -56,7 +52,6 @@ namespace LocalBusiness.Controllers
         _db.Entry(restaurant).State = EntityState.Modified;
         _db.SaveChanges();
     }
-     // DELETE api/animals/5
     [HttpDelete("{id}")]
     public void Delete(int id)
     {
