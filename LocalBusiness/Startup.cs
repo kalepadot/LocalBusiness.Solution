@@ -52,7 +52,7 @@ namespace LocalBusiness
             app.UseCookiePolicy();
             app.UseSwagger();
 
-              app.UseSwaggerUI(c =>
+            app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
