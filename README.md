@@ -87,8 +87,16 @@ _Run this application by entering the following command in Terminal (macOS) or P
 * ``dotnet restore``
 * ``dotnet build``
 * ``dotnet run`` or ``dotnet watch run``
+* ``click Localhost:5000/``
 
-_To view/edit the source code of this application, open the contents of the ``EpicodusChan.Solution`` directory in a text editor or IDE of your choice (e.g., to open all contents of the directory in Visual Studio Code on macOS, enter the command_ ``code .`` _in Terminal)._
+## Swagger
+
+_To view Swagger API endpoints, run the application. Once the application is running:_
+
+* Paste http://localhost:5000/swagger/index.html into your browser. 
+* This also provides swagger.json documentation
+
+_To view/edit the source code of this application, open the contents of the ``LocalBusiness.Solution`` directory in a text editor or IDE of your choice (e.g., to open all contents of the directory in Visual Studio Code on macOS, enter the command_ ``code .`` _in Terminal)._
 
 ## Technologies Used
 * _Git_
