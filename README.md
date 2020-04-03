@@ -10,21 +10,14 @@ This is a project designed to create a functional API for a local business finde
 
 ## API ENDPOINTS: 
 
-#### GROUPS: 
+#### Restaurants: 
 
-* GET /api/Groups
-* POST /api/Groups
-* GET /api/Groups/{id}
-* PUT /api/Groups/{id}
-* DELETE /api/Groups/{id}
+* GET /api/Restaurants
+* POST /api/Restaurants
+* GET /api/Restaurants/{id}
+* PUT /api/Restaurants/{id}
+* DELETE /api/Restaurants/{id}
 
-#### MESSAGES: 
-
-* GET /api/Groups/{GroupId}/Messages
-* POST /api/Groups/{GroupId}/Messages
-* GET /api/Groups/{GroupId}/Messages{id}
-* PUT /api/Groups/{GroupId}/Messages/{id}
-* DELETE /api/Groups/{GroupId}/Messages/{id}
 
 ## Setup/Installation Requirements
 
