@@ -112,7 +112,7 @@ _To view/edit the source code of this application, open the contents of the ``Lo
 * _Razor_
 * _dotnet script_
 * _MySQL 8.0 CE_
-<!-- * _MySQL Workbench 8.0 CE_ -->
+* _MySQL Workbench 8.0 CE_
 * _Entity Framework Core 2.2_
 * _Swagger_
 
