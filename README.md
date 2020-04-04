@@ -34,7 +34,7 @@ This is a project designed to create a functional API for a local business finde
 #### Install dotnet script
 _Enter the command ``dotnet tool install -g dotnet-script`` in Terminal (macOS) or PowerShell (Windows)._
 
-### Install MySQL and MySQL Workbench
+<!-- ### Install MySQL and MySQL Workbench
 
 #### on macOS:
 _Download the MySQL Community Server DMG File [here](https://dev.mysql.com/downloads/file/?id=484914). Follow along with the installer until you reach the configuration page. Once you've reached Configuration, set the following options (or user default if not specified):_
@@ -64,7 +64,7 @@ _Add the MySQL environment variable to the System PATH. Instructions for Windows
 * Select _PATH..._, click _Edit..._, then _Add_.
 * Add the exact location of your MySQL installation and click _OK_. (This location is likely C:\Program Files\MySQL\MySQL Server 8.0\bin, but may differ depending on your specific installation.)
 * Verify installation by opening Windows PowerShell and entering the command ``mysql -uroot -p{your password here, omitted brackets}``. It's working correctly if you gain access to the MySQL command line. Exit MySQL by entering the command ``exit``.
-* Open MySQL Workbench and select Local instance 3306 server (may be named differently). Enter the password you set, and if it connects, you're all set.
+* Open MySQL Workbench and select Local instance 3306 server (may be named differently). Enter the password you set, and if it connects, you're all set. -->
 
 ### Clone this repository
 
@@ -96,6 +96,10 @@ _To view Swagger API endpoints, run the application. Once the application is run
 * Paste http://localhost:5000/swagger/index.html into your browser. 
 * This also provides swagger.json documentation
 
+## OR!
+
+_Once application is running, click localhost:5000 in your terminal and click the 'swagger' link to view_
+
 _To view/edit the source code of this application, open the contents of the ``LocalBusiness.Solution`` directory in a text editor or IDE of your choice (e.g., to open all contents of the directory in Visual Studio Code on macOS, enter the command_ ``code .`` _in Terminal)._
 
 ## Technologies Used
@@ -108,7 +112,7 @@ _To view/edit the source code of this application, open the contents of the ``Lo
 * _Razor_
 * _dotnet script_
 * _MySQL 8.0 CE_
-* _MySQL Workbench 8.0 CE_
+<!-- * _MySQL Workbench 8.0 CE_ -->
 * _Entity Framework Core 2.2_
 * _Swagger_
 
