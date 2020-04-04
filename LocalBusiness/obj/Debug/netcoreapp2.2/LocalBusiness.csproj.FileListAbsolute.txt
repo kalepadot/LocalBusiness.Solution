@@ -12,3 +12,15 @@
 /Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorTargetAssemblyInfo.cache
 /Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.dll
 /Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.pdb
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.Views.dll
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/bin/Debug/netcoreapp2.2/LocalBusiness.Views.pdb
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.TagHelpers.input.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.TagHelpers.output.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorCoreGenerate.cache
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/Razor/Shared/_Layout.g.cshtml.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.RazorTargetAssemblyInfo.cs
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.Views.pdb
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/LocalBusiness.csproj.CopyComplete
+/Users/kalepadot/Desktop/LocalBusiness.Solution/LocalBusiness/obj/Debug/netcoreapp2.2/Razor/Shared/_NavBar.g.cshtml.cs
